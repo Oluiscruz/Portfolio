@@ -15,16 +15,24 @@
 <body id="begin">
     <div class="escopo-container">
         <header class="header">
-            <h1 class="logo">.oluisdev</h1>
-            <button class="menu-toggle" aria-label="Abrir menu">
-                <i class="fa fa-bars"></i>
-            </button>
-            <ul class="nav-list">
-                <li><a href="#sobre-mim">Sobre mim</a></li>
-                <li><a href="#hability" class="hability">Habilidades</a></li>
-                <li><a href="#main-four" class="project">Projetos</a></li>
-                <li><a href="#main-five" class="contact">Contato</a></li>
-            </ul>
+            <div class="nav-bar">
+                <h1 class="logo">.oluisdev</h1>
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#sobre-mim" class="nav-link">Sobre mim</a></li>
+                        <li class="nav-item"><a href="#hability" class="nav-link">Habilidades</a></li>
+                        <li class="nav-item"><a href="#main-four" class="nav-link">Projetos</a></li>
+                        <li class="nav-item"><a href="#main-five" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button id="btn-mobile">
+                        <img class="icon" src="/assets/img/menu_white_36dp.svg" alt="Abrir menu">
+                    </button>
+                </div>
+            </div>
         </header>
 
         <main class="main">
@@ -172,7 +180,7 @@
             </div>
             <div class="box-project" data-aos="fade-up" data-aos-duration="3000">
                 <div class="img-anime" data-aos="zoom-in-left" data-aos-duration="2000">
-                    <img src="./assets/img/p5.png" alt="projeto um" class="project-img"
+                    <img src="./assets/img/p5.png" alt="projeto 5" class="project-img"
                         data-link="https://oluiscruz.github.io/BobMarley/">
                 </div>
                 <div class="title-p">
@@ -222,9 +230,11 @@
                     <h4>Social</h4>
                     <ul>
                         <li><a href="https://github.com/Oluiscruz"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="https://www.instagram.com/oluisdev/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/oluisdev/"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
                         <li><a href="https://www.tiktok.com/@oluisdev"><i class="fa-brands fa-tiktok"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/oluiscruz/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/oluiscruz/"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
             </div>
